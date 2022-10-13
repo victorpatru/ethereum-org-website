@@ -31,19 +31,43 @@ const SvgText: React.FC<SvgProps> = ({ getString }) => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       aria-hidden="true"
     >
-      <text x="2%" y="35%" fontSize={lg}>
+      <text x="2%" y="35%" fontSize={lg} textAnchor="start" fill="currentColor">
         ⛏ {getString("docs-nav-proof-of-work")}
       </text>
-      <text x="47%" y="35%" fontSize={lg}>
+      <text
+        x="47%"
+        y="35%"
+        fontSize={lg}
+        textAnchor="start"
+        fill="currentColor"
+      >
         🌱 {getString("docs-nav-proof-of-stake")}
       </text>
-      <text x="11%" y="70%" fontSize={sm}>
+      <text
+        x="11%"
+        y="70%"
+        fontSize={sm}
+        textAnchor="start"
+        fill="currentColor"
+      >
         🚀 {getString("beacon-chain")}
       </text>
-      <text x="43%" y="12.5%" fontSize={sm}>
+      <text
+        x="43%"
+        y="12.5%"
+        fontSize={sm}
+        textAnchor="start"
+        fill="currentColor"
+      >
         🐼 {getString("page-upgrades-get-involved-ethresearch-2")}
       </text>
-      <text x="63%" y="95%" fontSize={sm}>
+      <text
+        x="63%"
+        y="95%"
+        fontSize={sm}
+        textAnchor="start"
+        fill="currentColor"
+      >
         🌳 {getString("page-upgrades-get-involved-ethresearch-1")}
       </text>
     </Icon>
